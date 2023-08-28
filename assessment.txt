@@ -1,0 +1,17 @@
+The goal of the task is just to have a simple overview of your coding and machine learning abilities, and it shouldn't take too long to complete. The actual problem is simple on purpose. You should focus on readable and modular code. Splitting the project in different files is expected, either in classes or functions.
+
+We would like you to create a small python project and send it back to us, either as a .zip file or by a link to a GitHub repository. 
+
+I have attached Housing.csv, which is a simple and standard data set.
+
+The project is required to have the following three features:
+
+- The mean price should be found and exposed via a function GetMeanHousePrice()
+- The data should be split in training and test data, before training a linear regression model on the data set (excluding the price) to predict the price based on the other variables. You are encouraged to use scikit-learn and pandas, but you don't have to.
+- The trained model should be exposed via a function PredictHousePriceFromInput(HouseInputData inputVariables)
+- The two functions should be either tested through a unittest or exposed via an API (for instance using flask). You can also do both, but it is not required.
+
+Please note that your project does not need to be perfect and don't spend too much time on it :).
+
+The methods used here are rather simple, but as we want to start to build a bigger platform to analyse and provide different insights into our own data model, an understandable, scalable and testable approach to coding is essential.
+
